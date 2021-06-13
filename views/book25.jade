@@ -1,0 +1,125 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 蛤蟆先生去看心理医生
+    link(rel='icon' href='/images/icons8.png' type='image/x-icon')
+    link(rel='stylesheet' href='/stylesheets//index.css')
+    link(rel='stylesheet' href='/stylesheets//book.css')
+    script(src='/javascripts/index.js')
+    script(src='/javascripts/book.js')
+  body
+    .main
+      header.header
+        .left_logo
+          img(src='/images/logo.png' alt='logo' onclick='homepage()')
+        .right_visitor
+          #{visitor1}
+          #{visitor2}
+      .container
+        ul.nav
+          li
+            span(onclick='homepage()') 主页
+          li
+            span.firstmenu 文学艺术
+            .secondmenu
+              a(href='/secondpage/a1') 青春文学
+              br
+              a(href='/secondpage/a2') 传记
+              br
+              a(href='/secondpage/a3') 小说
+              br
+              a(href='/secondpage/a4') 动漫艺术
+              br
+          li
+            span.firstmenu 科学技术
+            .secondmenu
+              a(href='/secondpage/b1') 计算机网络
+              br
+              a(href='/secondpage/b2') 医学
+              br
+              a(href='/secondpage/b3') 科普读物
+              br
+              a(href='/secondpage/b4') 工农林
+          li
+            span.firstmenu 教育考试
+            .secondmenu
+              a(href='/secondpage/c1') 外语考试
+              br
+              a(href='/secondpage/c2') 教材
+              br
+              a(href='/secondpage/c3') 工具书
+          li
+            span.firstmenu 人文社科
+            .secondmenu
+              a(href='/secondpage/d1') 历史
+              br
+              a(href='/secondpage/d2') 心理
+              br
+              a(href='/secondpage/d3') 哲学宗教
+              br
+              a(href='/secondpage/d4') 文化古籍
+        ul.bookdetail
+          li
+            h2 蛤蟆先生去看心理医生
+            img(src='/images/book25.jpg' alt='图书')
+            p 出版社: 天津人民出版社
+            p 作者: 【英】罗伯特·戴博德
+            p 译者: 陈赢
+            p 原作名: Counselling For Toads: A Psychological Adventure
+            p 出版年: 2020-8-1
+          li
+          li
+            h4 内容简介
+            p 蛤蟆先生一向爱笑爱闹，如今却一反常态地郁郁寡欢，他一个人躲在屋里，连起床梳洗的力气都没有。朋友们非常担心他，建议他去做心理咨询。在10次心理咨询中，蛤蟆在咨询师苍鹭的带领下，勇敢地探索了自己的内心世界，也逐渐找回了信心与希望……
+            p 这并不是一本写给孩子看的书，而是一本非常有深度的心理疗愈读物。出版20多年来，已成为英国国民级心理咨询入门书。它基于TA沟通分析心理学的理论，讲述了一个抑郁症病人通过十次心理咨询，终于找回快乐和自信的全过程。在书中，可以看到心理咨询的倾听、共情、沟通技巧，也可以看到一个标准的心理咨询流程的模板。读者犹如亲临现场，体验心理咨询的每一个细节，见证疗愈和改变的发生。
+            p 在这本书里，作者借由蛤蟆和心理咨询师苍鹭的互动，探索了蛤蟆自卑、软弱、爱炫耀的个性与抑郁的情绪究竟来源于何处，让读者看到童年经历对人格的深刻影响，以及如何才能在心理上真正长大成人，独立、自信、充满希望地生活。
+          li
+            h4 作者简介
+            p 罗伯特·戴博德（Robert de Board），毕业于剑桥大学赛尔文学院，曾任教于英国亨利商学院，是一位经验丰富的心理学研究者和临床实践者。他的两本专业著作《咨询技巧》和《组织的心理分析》都是英国畅销的心理学类教科书。本书是他最著名、最畅销的一本大众心理学著作。
+          li
+            h4 目录
+            p
+              | 第一章 整个人都不太好
+              br
+              |                         第二章 挚友前来相助
+              br
+              |                         第三章 初见咨询师
+              br
+              |                         第四章 抑郁的原因
+              br
+              |                         第五章 成长的寓言
+              br
+              |                         第六章 探索童年
+              br
+              |                         第七章 愤怒的表现
+              br
+              |                         第八章 意外访客
+              br
+              |                         第九章 秘密协议
+              br
+              |                         第十章 午餐聚会
+              br
+              |                         第十一章 蛤蟆先生的选择
+              br
+              |                         第十二章 说出人生故事
+              br
+              |                         第十三章 人生坐标与心理游戏
+              br
+              |                         第十四章 赢了游戏，输了自己
+              br
+              |                         第十五章 最后一次面谈
+              br
+              |                         第十六章 道别与新生
+      footer.footer
+        .link
+          li
+            a(href='#') 关于我们
+          li
+            a(href='#') 联系客服
+          li
+            a(href='#') 版权声明
+          li
+            a(href='#') CopyRight©书阁

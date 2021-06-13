@@ -1,0 +1,131 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 我们为什么生病
+    link(rel='icon' href='/images/icons8.png' type='image/x-icon')
+    link(rel='stylesheet' href='/stylesheets//index.css')
+    link(rel='stylesheet' href='/stylesheets//book.css')
+    script(src='/javascripts/index.js')
+    script(src='/javascripts/book.js')
+  body
+    .main
+      header.header
+        .left_logo
+          img(src='/images/logo.png' alt='logo' onclick='homepage()')
+        .right_visitor
+          #{visitor1}
+          #{visitor2}
+      .container
+        ul.nav
+          li
+            span(onclick='homepage()') 主页
+          li
+            span.firstmenu 文学艺术
+            .secondmenu
+              a(href='/secondpage/a1') 青春文学
+              br
+              a(href='/secondpage/a2') 传记
+              br
+              a(href='/secondpage/a3') 小说
+              br
+              a(href='/secondpage/a4') 动漫艺术
+              br
+          li
+            span.firstmenu 科学技术
+            .secondmenu
+              a(href='/secondpage/b1') 计算机网络
+              br
+              a(href='/secondpage/b2') 医学
+              br
+              a(href='/secondpage/b3') 科普读物
+              br
+              a(href='/secondpage/b4') 工农林
+          li
+            span.firstmenu 教育考试
+            .secondmenu
+              a(href='/secondpage/c1') 外语考试
+              br
+              a(href='/secondpage/c2') 教材
+              br
+              a(href='/secondpage/c3') 工具书
+          li
+            span.firstmenu 人文社科
+            .secondmenu
+              a(href='/secondpage/d1') 历史
+              br
+              a(href='/secondpage/d2') 心理
+              br
+              a(href='/secondpage/d3') 哲学宗教
+              br
+              a(href='/secondpage/d4') 文化古籍
+        ul.bookdetail
+          li
+            h2 我们为什么生病
+            img(src='/images/book11.jpg' alt='图书')
+            p 出版社: 湖南科学技术出版社
+            p 副标题: 达尔文医学的新科学
+            p 作者: [美] R.M.尼斯 / [美] G.C.威廉斯
+            p 译者: 易凡 / 禹宽平
+            p 原作名: Why We Get Sick: The New Science of Darwinian Medicine
+            p 出版年: 1998-01
+          li
+          li
+            h4 内容简介
+            p 这是近50年来在生物医学领域里写的很重要的一本书……关于我们的身体为什么这样对创伤和疾病作出反应的有说服力的探索。大多数人都知道达尔文学说。但是现在，在开创一个新的考察进化论和医学的领域里。尼斯和威廉斯博士指出疾病的许多方面不过是进化过程的副作用。事实上，人类和他们的敌人——病毒、细菌和寄生虫之间不断的战争——确实是一场进化史中的军备竞赛，在这场竞赛中，我们人类需要利用关于自然选择的知识使我们永远处于领先地位。
+          li
+            h4 作者简介
+            p R.M.尼斯，密锡根大学医学院精神病学教授，曾任该校教育及学术事务副主任。他组建了人类行为和进化学会，并曾任主席，在进化心理学和达尔文医学研究领域享有盛名。
+            p G.C.威廉斯，纽约州州立大学生态学和进化论荣休教授，美国科学院院士，曾任进化研究学会主席。他以对群体选择论的有力批判而闻名，在性别进化研究领域也有杰出成就。1999年他获得了有生物科学界“诺贝尔奖”之称的克拉福德奖。
+          li
+            h4 目录
+            p
+              | 前言
+              br
+              |                         第一章 疾病的奥秘
+              br
+              |                         第二章 通过自然选择产生的进化
+              br
+              |                         第三章 传染病的体征和症状
+              br
+              |                         第四章 不断升级的军备竞赛
+              br
+              |                         第五章 创伤
+              br
+              |                         第六章 新的、老的、无所不在的毒素
+              br
+              |                         第七章 基因和疾病:缺陷、脱轨以及妥协
+              br
+              |                         第八章 衰老是青年期精力旺盛的代价
+              br
+              |                         第九章 进化过程中的历史遗留问题
+              br
+              |                         第十章 文明病
+              br
+              |                         第十一章 变态反应
+              br
+              |                         第十二章 癌症
+              br
+              |                         第十三章 性和生殖
+              br
+              |                         第十四章 精神病是不是疾病?
+              br
+              |                         第十五章 医学的展望
+              br
+              |                         译后记——达尔文医学:后现代医学的反思
+              br
+              |                         注释
+              br
+              |                         ------------
+      footer.footer
+        .link
+          li
+            a(href='#') 关于我们
+          li
+            a(href='#') 联系客服
+          li
+            a(href='#') 版权声明
+          li
+            a(href='#') CopyRight©书阁

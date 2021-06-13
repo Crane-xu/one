@@ -1,0 +1,108 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 跟着考霸记笔记
+    link(rel='icon' href='/images/icons8.png' type='image/x-icon')
+    link(rel='stylesheet' href='/stylesheets//index.css')
+    link(rel='stylesheet' href='/stylesheets//book.css')
+    script(src='/javascripts/index.js')
+    script(src='/javascripts/book.js')
+  body
+    .main
+      header.header
+        .left_logo
+          img(src='/images/logo.png' alt='logo' onclick='homepage()')
+        .right_visitor
+          #{visitor1}
+          #{visitor2}
+      .container
+        ul.nav
+          li
+            span(onclick='homepage()') 主页
+          li
+            span.firstmenu 文学艺术
+            .secondmenu
+              a(href='/secondpage/a1') 青春文学
+              br
+              a(href='/secondpage/a2') 传记
+              br
+              a(href='/secondpage/a3') 小说
+              br
+              a(href='/secondpage/a4') 动漫艺术
+              br
+          li
+            span.firstmenu 科学技术
+            .secondmenu
+              a(href='/secondpage/b1') 计算机网络
+              br
+              a(href='/secondpage/b2') 医学
+              br
+              a(href='/secondpage/b3') 科普读物
+              br
+              a(href='/secondpage/b4') 工农林
+          li
+            span.firstmenu 教育考试
+            .secondmenu
+              a(href='/secondpage/c1') 外语考试
+              br
+              a(href='/secondpage/c2') 教材
+              br
+              a(href='/secondpage/c3') 工具书
+          li
+            span.firstmenu 人文社科
+            .secondmenu
+              a(href='/secondpage/d1') 历史
+              br
+              a(href='/secondpage/d2') 心理
+              br
+              a(href='/secondpage/d3') 哲学宗教
+              br
+              a(href='/secondpage/d4') 文化古籍
+        ul.bookdetail
+          li
+            h2 跟着考霸记笔记
+            img(src='/images/book18.jpg' alt='图书')
+            p 出版社: 后浪丨天津人民出版社
+            p 副标题: 教你在考试中通关的笔记学习法
+            p 作者: [日] 确井孝介
+            p 译者: 王星星
+            p 原作名: 頭のいい人は暗記ノートで覚える
+            p 出版年: 2020-10
+          li
+          li
+            h4 内容简介
+            p 学习时总是记不住知识点？笔记总是乱糟糟，理不出重点？想知道备考的高效小技巧？
+            p 其实只要遵循记笔记的三个步骤——聚焦要点、整合相关信息、利用图像记忆——无论你是不擅长学习还是记忆力不佳，都能熟练高效地掌握知识。
+            p 本书从“历史”“法律”“英语”等广泛领域选取素材，教你简化记忆、打造“记忆链”、三点记忆法等能够快速上手的记忆技巧，用详细的笔记实录清晰展示了“笔记学习法”的操作过程。跟着考霸记笔记，让记忆力不再成为考试的短板，你会发现学习变得有趣，大脑充满活力，未来的目标原来触手可及。
+          li
+            h4 作者简介
+            p 确井孝介，1984年出生于日本北海道。关西学院大学法学系毕业。曾担任大型企业的监察法人，任职于会计事务所。现担任司法书士及资格考试讲师，指导致力于考取司法书士、注册会计师的人。高中一年级时，在日本全国模拟考试中偏差值为35（低于合格线）。他以此为教训，发愤图强，开始实践以“熟记”为主的学习方法，此后成绩不断攀升，顺利考入大学。在学期间，考上录取率仅3%的司法书士。毕业后从零基础起步，仅用16个月考取注册会计师资格证。本书是作者亲自实践的记忆方法的集大成之作。
+          li
+            h4 目录
+            p
+              | 前言　“记忆笔记”为人生带来巨变
+              br
+              |                         第1 章 聪明人不做学习的“无用功”
+              br
+              |                         第2 章 信息“整合”后易于记忆
+              br
+              |                         第3 章 “图像化记忆”绝对经久不忘
+              br
+              |                         第4 章 转换成“图表”后，文章也能快速记住
+              br
+              |                         第5 章 使用“笔记”，记忆效果更进一步
+              br
+              |                         后记　用“记忆笔记”实现人生目标吧
+      footer.footer
+        .link
+          li
+            a(href='#') 关于我们
+          li
+            a(href='#') 联系客服
+          li
+            a(href='#') 版权声明
+          li
+            a(href='#') CopyRight©书阁

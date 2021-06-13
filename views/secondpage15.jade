@@ -1,0 +1,96 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 文化古籍
+    link(rel='icon' href='/images/icons8.png' type='image/x-icon')
+    link(rel='stylesheet' href='/stylesheets/index.css')
+    link(rel='stylesheet' href='/stylesheets/book.css')
+    script(src='/javascripts/index.js')
+  body
+    .main
+      header.header
+        .left_logo
+          img(src='/images/logo.png' alt='logo' onclick='homepage()')
+        .right_visitor
+          #{visitor1}
+          #{visitor2}
+      .container
+        ul.nav
+          li
+            span(onclick='homepage()') 主页
+          li
+            span.firstmenu 文学艺术
+            .secondmenu
+              a(href='/secondpage/a1') 青春文学
+              br
+              a(href='/secondpage/a2') 传记
+              br
+              a(href='/secondpage/a3') 小说
+              br
+              a(href='/secondpage/a4') 动漫艺术
+              br
+          li
+            span.firstmenu 科学技术
+            .secondmenu
+              a(href='/secondpage/b1') 计算机网络
+              br
+              a(href='/secondpage/b2') 医学
+              br
+              a(href='/secondpage/b3') 科普读物
+              br
+              a(href='/secondpage/b4') 工农林
+          li
+            span.firstmenu 教育考试
+            .secondmenu
+              a(href='/secondpage/c1') 外语考试
+              br
+              a(href='/secondpage/c2') 教材
+              br
+              a(href='/secondpage/c3') 工具书
+          li
+            span.firstmenu 人文社科
+            .secondmenu
+              a(href='/secondpage/d1') 历史
+              br
+              a(href='/secondpage/d2') 心理
+              br
+              a(href='/secondpage/d3') 哲学宗教
+              br
+              a(href='/secondpage/d4') 文化古籍
+        ul.bookshow
+          li
+            h3(onclick='bookdetail(29)') 乡土中国
+            br
+            img(src='/images/book29.jpg' alt='图书' onclick='bookdetail(29)')
+            br
+            br
+            p 费孝通 / 上海人民出版社
+            p
+              | 著名社会学家费孝通教授，一生行行重行行，实地调查和考察总结中国农村经济发展的各种模式，写下了诸多不朽篇章。本书推出的是学界共认的中国乡土社会传统文化和社会结...
+          li
+            p
+            br
+            br
+            br
+          li
+            h3(onclick='bookdetail(30)') 山海经 : 图文珍藏本
+            br
+            img(src='/images/book30.jpg' alt='图书' onclick='bookdetail(30)')
+            br
+            br
+            p 佚名 / 李润英、陈焕良 / 岳麓书社
+            p
+              | 《山海经》所具有的集大成之特色，决定了这部书的多样性、复杂性、兼容性、实用性。因此，当今也有许多论者称之为中国古代的一部百科全书。它像一座知识的矿藏，储藏着...
+      footer.footer
+        .link
+          li
+            a(href='#') 关于我们
+          li
+            a(href='#') 联系客服
+          li
+            a(href='#') 版权声明
+          li
+            a(href='#') CopyRight©书阁

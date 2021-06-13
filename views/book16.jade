@@ -1,0 +1,120 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 光变
+    link(rel='icon' href='/images/icons8.png' type='image/x-icon')
+    link(rel='stylesheet' href='/stylesheets//index.css')
+    link(rel='stylesheet' href='/stylesheets//book.css')
+    script(src='/javascripts/index.js')
+    script(src='/javascripts/book.js')
+  body
+    .main
+      header.header
+        .left_logo
+          img(src='/images/logo.png' alt='logo' onclick='homepage()')
+        .right_visitor
+          #{visitor1}
+          #{visitor2}
+      .container
+        ul.nav
+          li
+            span(onclick='homepage()') 主页
+          li
+            span.firstmenu 文学艺术
+            .secondmenu
+              a(href='/secondpage/a1') 青春文学
+              br
+              a(href='/secondpage/a2') 传记
+              br
+              a(href='/secondpage/a3') 小说
+              br
+              a(href='/secondpage/a4') 动漫艺术
+              br
+          li
+            span.firstmenu 科学技术
+            .secondmenu
+              a(href='/secondpage/b1') 计算机网络
+              br
+              a(href='/secondpage/b2') 医学
+              br
+              a(href='/secondpage/b3') 科普读物
+              br
+              a(href='/secondpage/b4') 工农林
+          li
+            span.firstmenu 教育考试
+            .secondmenu
+              a(href='/secondpage/c1') 外语考试
+              br
+              a(href='/secondpage/c2') 教材
+              br
+              a(href='/secondpage/c3') 工具书
+          li
+            span.firstmenu 人文社科
+            .secondmenu
+              a(href='/secondpage/d1') 历史
+              br
+              a(href='/secondpage/d2') 心理
+              br
+              a(href='/secondpage/d3') 哲学宗教
+              br
+              a(href='/secondpage/d4') 文化古籍
+        ul.bookdetail
+          li
+            h2 光变
+            img(src='/images/book16.jpg' alt='图书')
+            p 出版社: 当代中国出版社
+            p 副标题: 一个企业及其工业史
+            p 作者: 路风
+            p 出版年: 2016-3
+          li
+          li
+            h4 内容简介
+            p 这是一本关于京东方的再创业史。记录了京东方在一个全球高技术工业中的史诗般崛起。通过讲述这个真实的故事——真实的团队在真实的世界里创造出来的真实业绩——解释了中国经济发展的动力。
+            p 20年来，京东方从一家岌岌可危的老牌国企发展成为领军中国工业的龙头企业，并在全球半导体显示工业中异军突起，历经国企改制的脱胎重生和技术替代与市场替代的严酷洗礼，数度破釜沉舟实现颠覆式创新和跨越式发展，爆发出令世人瞠目的创造力。京东方独立自主、创新自强，敢于走自己的路，是中国工业精神的最佳写照。
+          li
+            h4 作者简介
+            p 路风，“50后”，北京人。1982年本科毕业于中央民族学院政治系；1991-1998年在美国哥伦比亚大学政治学系留学，1999年获哲学博士学位。1999年归国到清华执教，2003年调到北大，现为北京大学政府管理学院教授。1982-1991年，曾先后在北京市委、北京市政府、国家经济委员会和国家计划委员会工作。
+            p 路风长期关注中国的技术进步、工业发展及其政策问题，其研究涉及企业理论、战略管理、技术创新等领域。近年来，他对汽车、大飞机、电信标准、核电、高铁、液晶显示器等工业的一系列研究产生了一定的社会影响。著有《走向自主创新》（广西师范大学出版社2006年）。
+          li
+            h4 目录
+            p
+              | 导言/ 001
+              br
+              |                         第一章 北京电子管厂的兴衰/ 006
+              br
+              |                         第二章 毁灭中的重生/ 046
+              br
+              |                         第三章 激荡的TFT-LCD工业史/ 096
+              br
+              |                         第四章 孤独的液晶之旅/ 150
+              br
+              |                         第五章 英雄崛起/ 205
+              br
+              |                         第六章 扭转乾坤的力量/ 271
+              br
+              |                         第七章 勇敢的新世界/ 335
+              br
+              |                         第八章 回声：中国工业史的理论意义/ 407
+              br
+              |                         尾声/ 455
+              br
+              |                         附录/ 457
+              br
+              |                         一、访谈名录 / 457
+              br
+              |                         二、文献目录 / 462
+              br
+              |                         三、英文技术名词解释 / 474
+      footer.footer
+        .link
+          li
+            a(href='#') 关于我们
+          li
+            a(href='#') 联系客服
+          li
+            a(href='#') 版权声明
+          li
+            a(href='#') CopyRight©书阁

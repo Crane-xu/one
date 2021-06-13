@@ -1,0 +1,96 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 工农林
+    link(rel='icon' href='/images/icons8.png' type='image/x-icon')
+    link(rel='stylesheet' href='/stylesheets/index.css')
+    link(rel='stylesheet' href='/stylesheets/book.css')
+    script(src='/javascripts/index.js')
+  body
+    .main
+      header.header
+        .left_logo
+          img(src='/images/logo.png' alt='logo' onclick='homepage()')
+        .right_visitor
+          #{visitor1}
+          #{visitor2}
+      .container
+        ul.nav
+          li
+            span(onclick='homepage()') 主页
+          li
+            span.firstmenu 文学艺术
+            .secondmenu
+              a(href='/secondpage/a1') 青春文学
+              br
+              a(href='/secondpage/a2') 传记
+              br
+              a(href='/secondpage/a3') 小说
+              br
+              a(href='/secondpage/a4') 动漫艺术
+              br
+          li
+            span.firstmenu 科学技术
+            .secondmenu
+              a(href='/secondpage/b1') 计算机网络
+              br
+              a(href='/secondpage/b2') 医学
+              br
+              a(href='/secondpage/b3') 科普读物
+              br
+              a(href='/secondpage/b4') 工农林
+          li
+            span.firstmenu 教育考试
+            .secondmenu
+              a(href='/secondpage/c1') 外语考试
+              br
+              a(href='/secondpage/c2') 教材
+              br
+              a(href='/secondpage/c3') 工具书
+          li
+            span.firstmenu 人文社科
+            .secondmenu
+              a(href='/secondpage/d1') 历史
+              br
+              a(href='/secondpage/d2') 心理
+              br
+              a(href='/secondpage/d3') 哲学宗教
+              br
+              a(href='/secondpage/d4') 文化古籍
+        ul.bookshow
+          li
+            h3(onclick='bookdetail(15)') 农政全书校注（全三册）
+            br
+            img(src='/images/book15.jpg' alt='图书' onclick='bookdetail(15)')
+            br
+            br
+            p 徐光启 撰、石声汉校注/西北农学院古农学研究所整理 / 上海古籍出版社
+            p
+              | 本书共60卷，分为农本、田制、农事、水利、农器、树艺、蚕桑、蚕桑广类、种植、收养、制造、荒政等12目。全书对前人的农书和有关农业的文献,进行了系统的摘编，并...
+          li
+            p
+            br
+            br
+            br
+          li
+            h3(onclick='bookdetail(16)') 光变 : 一个企业及其工业史
+            br
+            img(src='/images/book16.jpg' alt='图书' onclick='bookdetail(16)')
+            br
+            br
+            p 路风 / 当代中国出版社
+            p
+              | 这是一本关于京东方的再创业史。记录了京东方在一个全球高技术工业中的史诗般崛起。通过讲述这个真实的故事——真实的团队在真实的世界里创造出来的真实业绩——解释了...
+      footer.footer
+        .link
+          li
+            a(href='#') 关于我们
+          li
+            a(href='#') 联系客服
+          li
+            a(href='#') 版权声明
+          li
+            a(href='#') CopyRight©书阁

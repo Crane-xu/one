@@ -1,0 +1,132 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 山海经
+    link(rel='icon' href='/images/icons8.png' type='image/x-icon')
+    link(rel='stylesheet' href='/stylesheets//index.css')
+    link(rel='stylesheet' href='/stylesheets//book.css')
+    script(src='/javascripts/index.js')
+    script(src='/javascripts/book.js')
+  body
+    .main
+      header.header
+        .left_logo
+          img(src='/images/logo.png' alt='logo' onclick='homepage()')
+        .right_visitor
+          #{visitor1}
+          #{visitor2}
+      .container
+        ul.nav
+          li
+            span(onclick='homepage()') 主页
+          li
+            span.firstmenu 文学艺术
+            .secondmenu
+              a(href='/secondpage/a1') 青春文学
+              br
+              a(href='/secondpage/a2') 传记
+              br
+              a(href='/secondpage/a3') 小说
+              br
+              a(href='/secondpage/a4') 动漫艺术
+              br
+          li
+            span.firstmenu 科学技术
+            .secondmenu
+              a(href='/secondpage/b1') 计算机网络
+              br
+              a(href='/secondpage/b2') 医学
+              br
+              a(href='/secondpage/b3') 科普读物
+              br
+              a(href='/secondpage/b4') 工农林
+          li
+            span.firstmenu 教育考试
+            .secondmenu
+              a(href='/secondpage/c1') 外语考试
+              br
+              a(href='/secondpage/c2') 教材
+              br
+              a(href='/secondpage/c3') 工具书
+          li
+            span.firstmenu 人文社科
+            .secondmenu
+              a(href='/secondpage/d1') 历史
+              br
+              a(href='/secondpage/d2') 心理
+              br
+              a(href='/secondpage/d3') 哲学宗教
+              br
+              a(href='/secondpage/d4') 文化古籍
+        ul.bookdetail
+          li
+            h2 山海经
+            img(src='/images/book30.jpg' alt='图书')
+            p 出版社: 岳麓书社
+            p 作者: 佚名
+            p 副标题: 图文珍藏本
+            p 译者: 李润英 / 陈焕良
+            p 出版年: 2006-5
+          li
+          li
+            h4 内容简介
+            p 山海经》所具有的集大成之特色，决定了这部书的多样性、复杂性、兼容性、实用性。因此，当今也有许多论者称之为中国古代的一部百科全书。它像一座知识的矿藏，储藏着历史、地理、文学、医学、宗教、民俗、绘画艺术、神话传说、奇取佚事、杂论等多方面的宝贵知识。我们应该避免那些以偏概全的定性思维，从多视角、多学科、多领域、全方位去开发先民留下的这座富矿。追索其来龙去脉，探讨其叙事风格，比较其古今异同，揭示其遗风遗韵，阐发其文化底蕴，从而进一步理解《山海经》博大精深的意蕴，使它多方面的价值得以全面研究、开发与利用。“泛览周王传，流观山海图，俯仰终宇宙，不乐复何如？”当年，“采菊东篱下”的陶渊明已深得品读《山海经》的乐趣，今天，我们以全新的眼光静下心来再读一读《山海经》，一定会让读者在愉悦中获取知识、启迪心智、丰富想象、增广见闻、扩展视野、受益良多。
+          li
+            h4 目录
+            p
+              | 出版前言
+              br
+              |                         神秘奇异之图 
+              br
+              |                         达观博物之文 ——千古奇书《山海经》
+              br
+              |                         山海经第一 南山经
+              br
+              |                         山海经第二 西山经 
+              br
+              |                         山海经第三 北山经
+              br
+              |                         山海经第四 东山经 
+              br
+              |                         山海经第五 中山经海经
+              br
+              |                         山海经第六 海外南经
+              br
+              |                         山海经第七 海外西经 
+              br
+              |                         山海经第八 海外北经
+              br
+              |                         山海经第九 海外东经
+              br
+              |                         山海经第十 海内南经 
+              br
+              |                         山海经第十一 海内西经
+              br
+              |                         山海经第十二 海内北经
+              br
+              |                         山海经第十三 海内东经
+              br
+              |                         山海经第十四 大荒东经
+              br
+              |                         山海经第十五 大荒南经
+              br
+              |                         山海经第十六 大荒西经 
+              br
+              |                         山海经第十七 大荒北经
+              br
+              |                         山海经第十八 海内经
+              br
+              |                         附：《山海经》叙景
+      footer.footer
+        .link
+          li
+            a(href='#') 关于我们
+          li
+            a(href='#') 联系客服
+          li
+            a(href='#') 版权声明
+          li
+            a(href='#') CopyRight©书阁

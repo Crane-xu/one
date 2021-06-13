@@ -1,0 +1,114 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 我们仨
+    link(rel='icon' href='/images/icons8.png' type='image/x-icon')
+    link(rel='stylesheet' href='/stylesheets//index.css')
+    link(rel='stylesheet' href='/stylesheets//book.css')
+    script(src='/javascripts/index.js')
+    script(src='/javascripts/book.js')
+  body
+    .main
+      header.header
+        .left_logo
+          img(src='/images/logo.png' alt='logo' onclick='homepage()')
+        .right_visitor
+          #{visitor1}
+          #{visitor2}
+      .container
+        ul.nav
+          li
+            span(onclick='homepage()') 主页
+          li
+            span.firstmenu 文学艺术
+            .secondmenu
+              a(href='/secondpage/a1') 青春文学
+              br
+              a(href='/secondpage/a2') 传记
+              br
+              a(href='/secondpage/a3') 小说
+              br
+              a(href='/secondpage/a4') 动漫艺术
+              br
+          li
+            span.firstmenu 科学技术
+            .secondmenu
+              a(href='/secondpage/b1') 计算机网络
+              br
+              a(href='/secondpage/b2') 医学
+              br
+              a(href='/secondpage/b3') 科普读物
+              br
+              a(href='/secondpage/b4') 工农林
+          li
+            span.firstmenu 教育考试
+            .secondmenu
+              a(href='/secondpage/c1') 外语考试
+              br
+              a(href='/secondpage/c2') 教材
+              br
+              a(href='/secondpage/c3') 工具书
+          li
+            span.firstmenu 人文社科
+            .secondmenu
+              a(href='/secondpage/d1') 历史
+              br
+              a(href='/secondpage/d2') 心理
+              br
+              a(href='/secondpage/d3') 哲学宗教
+              br
+              a(href='/secondpage/d4') 文化古籍
+        ul.bookdetail
+          li
+            h2 我们仨
+            img(src='/images/book4.jpg' alt='图书')
+            p 出版社: 生活·读书·新知三联书店
+            p 作者:  杨绛
+            p 出版年: 2003-7
+          li
+          li
+            h4 内容简介
+            p 《我们仨》是钱钟书夫人杨绛撰写的家庭生活回忆录。1998年，钱钟书逝世，而他和杨绛唯一的女儿钱瑗已于此前（1997年）先他们而去。在人生的伴侣离去四年后，杨绛在92岁高龄的时候用心记述了他们这个特殊家庭63年的风风雨雨、点点滴滴，结成回忆录《我们仨》。
+            p 这本书分为两部分。第一部分中，作者以其一贯的慧心、独特的笔法，用梦境的形式讲述了最后几年中一家三口相依为命的情感体验。第二部分，以平实感人的文字记录了自1935年伉俪二人赴英国留学并在牛津喜得爱女，直至1998年丈夫逝世，63年间这个家庭鲜为人知的坎坷历程。
+          li
+            h4 作者简介
+            p 杨绛（1911- ），本名杨季康，祖籍江苏无锡，生于北京。作家、评论家、翻译家、学者。1932年毕业于苏州东吴大学。1935-1938年留学英法，回国后曾在上海震旦女子文理学院、清华大学任教。1949年后，在中国社会科学院文学研究所、外国文学研究所工作。主要作品有剧本《称心如意》《弄假成真》，长篇小说《洗澡》，散文《干校六记》，随笔集《将饮茶》，译作《堂吉诃德》《吉尔·布拉斯》《小癞子》《斐多》等。
+          li
+            h4 目录
+            p
+              | 第一部
+              br
+              |                         我们俩老了
+              br
+              |                         第二部
+              br
+              |                         我们仨失散了
+              br
+              |                         （一）走上古驿道
+              br
+              |                         （二）古驿道上相聚
+              br
+              |                         （三）古驿道上相失
+              br
+              |                         第三部
+              br
+              |                         我一个人思念我们仨
+              br
+              |                         附录一
+              br
+              |                         附录二
+              br
+              |                         附录三
+      footer.footer
+        .link
+          li
+            a(href='#') 关于我们
+          li
+            a(href='#') 联系客服
+          li
+            a(href='#') 版权声明
+          li
+            a(href='#') CopyRight©书阁

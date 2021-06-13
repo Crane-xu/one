@@ -1,0 +1,96 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 工具书
+    link(rel='icon' href='/images/icons8.png' type='image/x-icon')
+    link(rel='stylesheet' href='/stylesheets/index.css')
+    link(rel='stylesheet' href='/stylesheets/book.css')
+    script(src='/javascripts/index.js')
+  body
+    .main
+      header.header
+        .left_logo
+          img(src='/images/logo.png' alt='logo' onclick='homepage()')
+        .right_visitor
+          #{visitor1}
+          #{visitor2}
+      .container
+        ul.nav
+          li
+            span(onclick='homepage()') 主页
+          li
+            span.firstmenu 文学艺术
+            .secondmenu
+              a(href='/secondpage/a1') 青春文学
+              br
+              a(href='/secondpage/a2') 传记
+              br
+              a(href='/secondpage/a3') 小说
+              br
+              a(href='/secondpage/a4') 动漫艺术
+              br
+          li
+            span.firstmenu 科学技术
+            .secondmenu
+              a(href='/secondpage/b1') 计算机网络
+              br
+              a(href='/secondpage/b2') 医学
+              br
+              a(href='/secondpage/b3') 科普读物
+              br
+              a(href='/secondpage/b4') 工农林
+          li
+            span.firstmenu 教育考试
+            .secondmenu
+              a(href='/secondpage/c1') 外语考试
+              br
+              a(href='/secondpage/c2') 教材
+              br
+              a(href='/secondpage/c3') 工具书
+          li
+            span.firstmenu 人文社科
+            .secondmenu
+              a(href='/secondpage/d1') 历史
+              br
+              a(href='/secondpage/d2') 心理
+              br
+              a(href='/secondpage/d3') 哲学宗教
+              br
+              a(href='/secondpage/d4') 文化古籍
+        ul.bookshow
+          li
+            h3(onclick='bookdetail(21)') 如何有效阅读一本书 : 超实用笔记读书法
+            br
+            img(src='/images/book21.jpg' alt='图书' onclick='bookdetail(21)')
+            br
+            br
+            p [日] 奥野宣之 / 张晶晶 / 江西人民出版社 
+            p
+              | 做好一本笔记，牢记每本书的精华 ................... ※编辑推荐※ 你会做笔记吗？你的笔记有章法可循吗？你怎样记，决定你记得怎样。《如何有...
+          li
+            p
+            br
+            br
+            br
+          li
+            h3(onclick='bookdetail(22)') 老年实用手册 : 如何归纳自己的人生
+            br
+            img(src='/images/book22.jpg' alt='图书' onclick='bookdetail(22)')
+            br
+            br
+            p 宗泽亚 / 后浪丨中国友谊出版公司
+            p
+              | 专为老年群体设计 将老人挂心之事悉数制成表格 一部可以赠予家中老人的贴心之作 双色印刷；附赠密码本、自书遗嘱套装 ◎ 编辑推荐 您可曾注意到家中老人或许有隐...
+      footer.footer
+        .link
+          li
+            a(href='#') 关于我们
+          li
+            a(href='#') 联系客服
+          li
+            a(href='#') 版权声明
+          li
+            a(href='#') CopyRight©书阁

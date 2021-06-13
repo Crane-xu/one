@@ -1,0 +1,100 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 老年实用手册
+    link(rel='icon' href='/images/icons8.png' type='image/x-icon')
+    link(rel='stylesheet' href='/stylesheets//index.css')
+    link(rel='stylesheet' href='/stylesheets//book.css')
+    script(src='/javascripts/index.js')
+    script(src='/javascripts/book.js')
+  body
+    .main
+      header.header
+        .left_logo
+          img(src='/images/logo.png' alt='logo' onclick='homepage()')
+        .right_visitor
+          #{visitor1}
+          #{visitor2}
+      .container
+        ul.nav
+          li
+            span(onclick='homepage()') 主页
+          li
+            span.firstmenu 文学艺术
+            .secondmenu
+              a(href='/secondpage/a1') 青春文学
+              br
+              a(href='/secondpage/a2') 传记
+              br
+              a(href='/secondpage/a3') 小说
+              br
+              a(href='/secondpage/a4') 动漫艺术
+              br
+          li
+            span.firstmenu 科学技术
+            .secondmenu
+              a(href='/secondpage/b1') 计算机网络
+              br
+              a(href='/secondpage/b2') 医学
+              br
+              a(href='/secondpage/b3') 科普读物
+              br
+              a(href='/secondpage/b4') 工农林
+          li
+            span.firstmenu 教育考试
+            .secondmenu
+              a(href='/secondpage/c1') 外语考试
+              br
+              a(href='/secondpage/c2') 教材
+              br
+              a(href='/secondpage/c3') 工具书
+          li
+            span.firstmenu 人文社科
+            .secondmenu
+              a(href='/secondpage/d1') 历史
+              br
+              a(href='/secondpage/d2') 心理
+              br
+              a(href='/secondpage/d3') 哲学宗教
+              br
+              a(href='/secondpage/d4') 文化古籍
+        ul.bookdetail
+          li
+            h2 老年实用手册
+            img(src='/images/book22.jpg' alt='图书')
+            p 出版社: 后浪丨中国友谊出版公司
+            p 副标题: 如何归纳自己的人生
+            p 作者: 宗泽亚
+            p 出版年: 2020-7
+          li
+          li
+            h4 内容简介
+            p 《老年实用手册》是一部帮助老年人归纳自己人生的指南。全书采用简单易懂的表格形式，引导老人完成整理人生的功课。依照各章节，老人能畅快地记录个人各方面的信息，回顾一生的经历，同时对晚年生活、财产管理、医疗照护、遗嘱、葬礼等大事提前做好安排。本手册另配备《我的密码本》和《自书遗嘱套装》两个附件，方便老人记录重要的财产和遗嘱信息。这部形式新颖的实用手册将带给老人对生命的全新思考。
+          li
+            h4 作者简介
+            p 宗泽亚，中山大学毕业，作家，旅日华侨，化学工程师、电子工程师，曾在中国科学院所属研究所工作。多年专注日本近代史及民间风俗文化的研究。代表作有《清日战争》《明治维新的国度》《清日甲午战争写真集》《日本近世性文化》等。
+          li
+            h4 目录
+            p
+              | 1 我的一生和家庭
+              br
+              |                         2 我的金融账户
+              br
+              |                         3 我的生前预嘱
+              br
+              |                         4 我的葬事安排
+              br
+              |                         5 我的速查表
+      footer.footer
+        .link
+          li
+            a(href='#') 关于我们
+          li
+            a(href='#') 联系客服
+          li
+            a(href='#') 版权声明
+          li
+            a(href='#') CopyRight©书阁

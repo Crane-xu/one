@@ -1,0 +1,115 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 如何有效阅读一本书
+    link(rel='icon' href='/images/icons8.png' type='image/x-icon')
+    link(rel='stylesheet' href='/stylesheets//index.css')
+    link(rel='stylesheet' href='/stylesheets//book.css')
+    script(src='/javascripts/index.js')
+    script(src='/javascripts/book.js')
+  body
+    .main
+      header.header
+        .left_logo
+          img(src='/images/logo.png' alt='logo' onclick='homepage()')
+        .right_visitor
+          #{visitor1}
+          #{visitor2}
+      .container
+        ul.nav
+          li
+            span(onclick='homepage()') 主页
+          li
+            span.firstmenu 文学艺术
+            .secondmenu
+              a(href='/secondpage/a1') 青春文学
+              br
+              a(href='/secondpage/a2') 传记
+              br
+              a(href='/secondpage/a3') 小说
+              br
+              a(href='/secondpage/a4') 动漫艺术
+              br
+          li
+            span.firstmenu 科学技术
+            .secondmenu
+              a(href='/secondpage/b1') 计算机网络
+              br
+              a(href='/secondpage/b2') 医学
+              br
+              a(href='/secondpage/b3') 科普读物
+              br
+              a(href='/secondpage/b4') 工农林
+          li
+            span.firstmenu 教育考试
+            .secondmenu
+              a(href='/secondpage/c1') 外语考试
+              br
+              a(href='/secondpage/c2') 教材
+              br
+              a(href='/secondpage/c3') 工具书
+          li
+            span.firstmenu 人文社科
+            .secondmenu
+              a(href='/secondpage/d1') 历史
+              br
+              a(href='/secondpage/d2') 心理
+              br
+              a(href='/secondpage/d3') 哲学宗教
+              br
+              a(href='/secondpage/d4') 文化古籍
+        ul.bookdetail
+          li
+            h2 如何有效阅读一本书
+            img(src='/images/book21.jpg' alt='图书')
+            p 出版社: 江西人民出版社
+            p 副标题: 超实用笔记读书法
+            p 作者:  [日本] 奥野宣之
+            p 译者: 张晶晶
+            p 原作名: 読書は1冊のノートにまとめなさい
+            p 出版年: 2016-6
+          li
+          li
+            h4 内容简介
+            p 对在漫长人生中读过的书而言，人类的记忆力是有限的。如果想在读完每一本书后都有扎实的收获，就需要有技巧地写读书笔记，并养成长期的习惯。
+            p 传媒业出身的奥野宣之创造的一元化笔记读书法涵盖了从选书、购书、读书、记录到检索以备重读这五个步骤，提供了一整套科学、高效的读书方法。他倡导有目的性地购书，让读书从一开始就充满主动性；用笔记管理读书生活，养成随时记录心得体会的习惯；学会摘抄，让原书精髓与自身思维的火花交相辉映；完善整理归档工作，做好的笔记需要反复重读才能凸显其价值。他还从自身经验出发，介绍了19个让读书体验更充实、有效的小窍门。
+            p 读书笔记会帮助我们改变读书方法，而读书方法的改变又会带来思考方式的转变。如果你也想见证这段神奇的转变，那就从现在开始，随时把笔记本带在身边吧。
+          li
+            h4 作者简介
+            p 奥野宣之，同志社大学新闻学专业毕业，曾在出版社和报社工作。他独创的信息整理术和智慧创造法在商务人士中大受欢迎，累计销量超过50万册。在利用新闻出版经验进行网络与杂志专栏撰稿人的工作以外，他还以“笔记本作家”的身份活跃在媒体节目和论坛中。不管是工作还是兴趣，他都坚持使用笔记本记录，这种生活方式在NHK 和TBS 电视台的节目中播出后引发了热烈反响。
+            p 他的其他著作包括《如何写游记和散步日记》《智慧创造锻炼法》《“处方笺”读书法》《三本书创造好点子》等。
+          li
+            h4 目录
+            p
+              | 关于完全版的发行
+              br
+              |                         前 言
+              br
+              |                         第一章 用笔记管理读书生活
+              br
+              |                         第二章 用购书清单指名购书
+              br
+              |                         第三章 用笔记把读过的书变为精神财富
+              br
+              |                         第四章 通过重读笔记提高自我
+              br
+              |                         第五章 让读书体验更充实的19个技巧
+              br
+              |                         附 录 写读书笔记的26款实用文具
+              br
+              |                         后 记
+              br
+              |                         出版后记
+      footer.footer
+        .link
+          li
+            a(href='#') 关于我们
+          li
+            a(href='#') 联系客服
+          li
+            a(href='#') 版权声明
+          li
+            a(href='#') CopyRight©书阁

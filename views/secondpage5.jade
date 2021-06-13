@@ -1,0 +1,96 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 计算机网络
+    link(rel='icon' href='/images/icons8.png' type='image/x-icon')
+    link(rel='stylesheet' href='/stylesheets/index.css')
+    link(rel='stylesheet' href='/stylesheets/book.css')
+    script(src='/javascripts/index.js')
+  body
+    .main
+      header.header
+        .left_logo
+          img(src='/images/logo.png' alt='logo' onclick='homepage()')
+        .right_visitor
+          #{visitor1}
+          #{visitor2}
+      .container
+        ul.nav
+          li
+            span(onclick='homepage()') 主页
+          li
+            span.firstmenu 文学艺术
+            .secondmenu
+              a(href='/secondpage/a1') 青春文学
+              br
+              a(href='/secondpage/a2') 传记
+              br
+              a(href='/secondpage/a3') 小说
+              br
+              a(href='/secondpage/a4') 动漫艺术
+              br
+          li
+            span.firstmenu 科学技术
+            .secondmenu
+              a(href='/secondpage/b1') 计算机网络
+              br
+              a(href='/secondpage/b2') 医学
+              br
+              a(href='/secondpage/b3') 科普读物
+              br
+              a(href='/secondpage/b4') 工农林
+          li
+            span.firstmenu 教育考试
+            .secondmenu
+              a(href='/secondpage/c1') 外语考试
+              br
+              a(href='/secondpage/c2') 教材
+              br
+              a(href='/secondpage/c3') 工具书
+          li
+            span.firstmenu 人文社科
+            .secondmenu
+              a(href='/secondpage/d1') 历史
+              br
+              a(href='/secondpage/d2') 心理
+              br
+              a(href='/secondpage/d3') 哲学宗教
+              br
+              a(href='/secondpage/d4') 文化古籍
+        ul.bookshow
+          li
+            h3(onclick='bookdetail(9)') 深入理解计算机系统（原书第3版）
+            br
+            img(src='/images/book9.jpg' alt='图书' onclick='bookdetail(9)')
+            br
+            br
+            p Randal E.Bryant、David O'Hallaron / 龚奕利、贺莲 / 机械工业出版社
+            p
+              | 和第2版相比，本版内容上*大的变化是，从以IA32和x86-64为基础转变为完全以x86-64为基础。主要更新如下： 基于x86-64，大量地重写代码，首次...
+          li
+            p
+            br
+            br
+            br
+          li
+            h3(onclick='bookdetail(10)') 通信之道——从微积分到5G
+            br
+            img(src='/images/book10.jpg' alt='图书' onclick='bookdetail(10)')
+            br
+            br
+            p 杨学志 编著 / 电子工业出版社
+            p
+              | 《通信之道——从微积分到5G》按照读者的思维顺序讲述了从微积分到5G 所涉及的基础知识和关键技术。《通信之道——从微积分到5G》共20 章，具有以下特点： ...
+      footer.footer
+        .link
+          li
+            a(href='#') 关于我们
+          li
+            a(href='#') 联系客服
+          li
+            a(href='#') 版权声明
+          li
+            a(href='#') CopyRight©书阁

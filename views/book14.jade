@@ -1,0 +1,133 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 哲学家们都干了些什么
+    link(rel='icon' href='/images/icons8.png' type='image/x-icon')
+    link(rel='stylesheet' href='/stylesheets//index.css')
+    link(rel='stylesheet' href='/stylesheets//book.css')
+    script(src='/javascripts/index.js')
+    script(src='/javascripts/book.js')
+  body
+    .main
+      header.header
+        .left_logo
+          img(src='/images/logo.png' alt='logo' onclick='homepage()')
+        .right_visitor
+          #{visitor1}
+          #{visitor2}
+      .container
+        ul.nav
+          li
+            span(onclick='homepage()') 主页
+          li
+            span.firstmenu 文学艺术
+            .secondmenu
+              a(href='/secondpage/a1') 青春文学
+              br
+              a(href='/secondpage/a2') 传记
+              br
+              a(href='/secondpage/a3') 小说
+              br
+              a(href='/secondpage/a4') 动漫艺术
+              br
+          li
+            span.firstmenu 科学技术
+            .secondmenu
+              a(href='/secondpage/b1') 计算机网络
+              br
+              a(href='/secondpage/b2') 医学
+              br
+              a(href='/secondpage/b3') 科普读物
+              br
+              a(href='/secondpage/b4') 工农林
+          li
+            span.firstmenu 教育考试
+            .secondmenu
+              a(href='/secondpage/c1') 外语考试
+              br
+              a(href='/secondpage/c2') 教材
+              br
+              a(href='/secondpage/c3') 工具书
+          li
+            span.firstmenu 人文社科
+            .secondmenu
+              a(href='/secondpage/d1') 历史
+              br
+              a(href='/secondpage/d2') 心理
+              br
+              a(href='/secondpage/d3') 哲学宗教
+              br
+              a(href='/secondpage/d4') 文化古籍
+        ul.bookdetail
+          li
+            h2 哲学家们都干了些什么
+            img(src='/images/book14.jpg' alt='图书')
+            p 出版社: 北京联合出版公司
+            p 副标题: 史上最严谨又最不严肃的哲学史
+            p 作者: 林欣浩
+            p 出版年: 2015-4
+          li
+          li
+            h4 内容简介
+            p 你知道吗，你想过或者没想过的这些奇形怪状的问题，早在几千年前就被哲学家们一本正经地提出，挖空心思地找证据，面红耳赤地争论过了。在整个世界忙着探索、开垦、打仗、上天、发展的漫长历史中，这帮哲学家们却神经质地死磕这个世界的真相和人生的意义，就好像一个网络游戏里的角色试图琢磨自己手里武器的代码是什么……
+            p 翻开本书，从神烦的苏格拉底开始，彻底了解人类史上的哲学家们，以及他们穷尽毕生的经历和苦思后提交的最终答卷。
+          li
+            h4 作者简介
+            p 林欣浩，男，自由撰稿人。著有《哲学家们都干了些什么？》《佛祖都说了些什么？》。
+          li
+            h4 目录
+            p
+              | 前 言 /1
+              br
+              |                         上 篇:理性的崛起 /3
+              br
+              |                         第一章 哲学好讨厌 /5
+              br
+              |                         第二章 少年国王 /14
+              br
+              |                         第三章 使徒行传 /24
+              br
+              |                         第四章 上帝之城 /37
+              br
+              |                         第五章 异教徒 /47
+              br
+              |                         第六章 神们自己 /55
+              br
+              |                         第七章 群魔 /63
+              br
+              |                         第八章 异端的权利 /74
+              br
+              |                         第九章 奇怪的论调 /88
+              br
+              |                         ------------
+              br
+              |                         下篇:理性的陨落 /275
+              br
+              |                         第一章 傲慢与偏见 /277
+              br
+              |                         第二章 悲观主义 /287
+              br
+              |                         第三章 理性的危机 /309
+              br
+              |                         第四章 瞧!这个人 /314
+              br
+              |                         第五章 钢铁之躯 /321
+              br
+              |                         第六章 被侮辱的与被损害的 /332
+              br
+              |                         第七章 科学新发现:理性的反击 /340
+              br
+              |                         ------------
+      footer.footer
+        .link
+          li
+            a(href='#') 关于我们
+          li
+            a(href='#') 联系客服
+          li
+            a(href='#') 版权声明
+          li
+            a(href='#') CopyRight©书阁

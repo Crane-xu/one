@@ -1,0 +1,96 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 科普读物
+    link(rel='icon' href='/images/icons8.png' type='image/x-icon')
+    link(rel='stylesheet' href='/stylesheets/index.css')
+    link(rel='stylesheet' href='/stylesheets/book.css')
+    script(src='/javascripts/index.js')
+  body
+    .main
+      header.header
+        .left_logo
+          img(src='/images/logo.png' alt='logo' onclick='homepage()')
+        .right_visitor
+          #{visitor1}
+          #{visitor2}
+      .container
+        ul.nav
+          li
+            span(onclick='homepage()') 主页
+          li
+            span.firstmenu 文学艺术
+            .secondmenu
+              a(href='/secondpage/a1') 青春文学
+              br
+              a(href='/secondpage/a2') 传记
+              br
+              a(href='/secondpage/a3') 小说
+              br
+              a(href='/secondpage/a4') 动漫艺术
+              br
+          li
+            span.firstmenu 科学技术
+            .secondmenu
+              a(href='/secondpage/b1') 计算机网络
+              br
+              a(href='/secondpage/b2') 医学
+              br
+              a(href='/secondpage/b3') 科普读物
+              br
+              a(href='/secondpage/b4') 工农林
+          li
+            span.firstmenu 教育考试
+            .secondmenu
+              a(href='/secondpage/c1') 外语考试
+              br
+              a(href='/secondpage/c2') 教材
+              br
+              a(href='/secondpage/c3') 工具书
+          li
+            span.firstmenu 人文社科
+            .secondmenu
+              a(href='/secondpage/d1') 历史
+              br
+              a(href='/secondpage/d2') 心理
+              br
+              a(href='/secondpage/d3') 哲学宗教
+              br
+              a(href='/secondpage/d4') 文化古籍
+        ul.bookshow
+          li
+            h3(onclick='bookdetail(13)') 人类简史 : 从动物到上帝
+            br
+            img(src='/images/book13.jpg' alt='图书' onclick='bookdetail(13)')
+            br
+            br
+            p [以色列] 尤瓦尔·赫拉利 / 林俊宏 / 中信出版社
+            p
+              | 十万年前，地球上至少有六种不同的人 但今日，世界舞台为什么只剩下了我们自己？ 从只能啃食虎狼吃剩的残骨的猿人，到跃居食物链顶端的智人， 从雪维洞穴壁上的原始...
+          li
+            p
+            br
+            br
+            br
+          li
+            h3(onclick='bookdetail(14)') 哲学家们都干了些什么 : 史上最严谨又最不严肃的哲学史
+            br
+            img(src='/images/book14.jpg' alt='图书' onclick='bookdetail(14)')
+            br
+            br
+            p 林欣浩 / 北京联合出版公司
+            p
+              | “哲学史写得这么浅白风趣八卦，你让我们哲学系的人还怎么混？！” 轰动豆瓣的奇葩之书，连续三年蝉联豆瓣电子阅读榜第一的神作 经作者全面修订后，2015年重新问...
+      footer.footer
+        .link
+          li
+            a(href='#') 关于我们
+          li
+            a(href='#') 联系客服
+          li
+            a(href='#') 版权声明
+          li
+            a(href='#') CopyRight©书阁

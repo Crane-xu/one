@@ -1,0 +1,115 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 史记（全十册）
+    link(rel='icon' href='/images/icons8.png' type='image/x-icon')
+    link(rel='stylesheet' href='/stylesheets//index.css')
+    link(rel='stylesheet' href='/stylesheets//book.css')
+    script(src='/javascripts/index.js')
+    script(src='/javascripts/book.js')
+  body
+    .main
+      header.header
+        .left_logo
+          img(src='/images/logo.png' alt='logo' onclick='homepage()')
+        .right_visitor
+          #{visitor1}
+          #{visitor2}
+      .container
+        ul.nav
+          li
+            span(onclick='homepage()') 主页
+          li
+            span.firstmenu 文学艺术
+            .secondmenu
+              a(href='/secondpage/a1') 青春文学
+              br
+              a(href='/secondpage/a2') 传记
+              br
+              a(href='/secondpage/a3') 小说
+              br
+              a(href='/secondpage/a4') 动漫艺术
+              br
+          li
+            span.firstmenu 科学技术
+            .secondmenu
+              a(href='/secondpage/b1') 计算机网络
+              br
+              a(href='/secondpage/b2') 医学
+              br
+              a(href='/secondpage/b3') 科普读物
+              br
+              a(href='/secondpage/b4') 工农林
+          li
+            span.firstmenu 教育考试
+            .secondmenu
+              a(href='/secondpage/c1') 外语考试
+              br
+              a(href='/secondpage/c2') 教材
+              br
+              a(href='/secondpage/c3') 工具书
+          li
+            span.firstmenu 人文社科
+            .secondmenu
+              a(href='/secondpage/d1') 历史
+              br
+              a(href='/secondpage/d2') 心理
+              br
+              a(href='/secondpage/d3') 哲学宗教
+              br
+              a(href='/secondpage/d4') 文化古籍
+        ul.bookdetail
+          li
+            h2 史记（全十册）
+            img(src='/images/book24.jpg' alt='图书')
+            p 出版社: 中华书局
+            p 作者: 司马迁 / 张守节
+            p 译者: （索隐）司马贞，（正义）张守节
+            p 出版年: 1982-11
+          li
+          li
+            h4 内容简介
+            p 史记是我国第一部通史。在史记之前，有以年代为次的“编年史”如春秋，有以地域为限的“国别史”如国语、战国策，有以文告档卷形式保存下来的“政治史”如尚书，可是没有上下几千年，包罗各方面，而又融会贯通，�络分明，像史记那样的通史。
+            p 唐刘知几的史通分叙六家，统归二体。所谓“二体”，就是“编年体”和“纪传体”，而史记是纪传体的创始。从此以后，历代的所谓“正史，从汉书到明史，尽管名目有改变（例如汉书改“书”为“志”，晋书改世家”为“载记”），门类有短缺（例如汉书无“世家”，后汉书、三国志等都无“表”、“志及世家”），但都有“纪”有“传”，绝无例外地沿袭了史记的体例。
+            p 据司马迁自序，史记全书本纪十二篇，表十篇，书八篇，世家三十篇，列传七十篇（包括太史公自序），共一百三十篇。今本史记一百三十卷，篇数跟司马迁自序所说的相符。但汉书司马迁传说其中“十篇缺，有录无书。三国魏张晏注：“迁没之后，亡景纪、武纪、礼书、乐书、兵书（按：即律书）、汉兴以来将相年表、日者传、三王世家、龟策列传、传靳列传。兀成之间，褚先生补缺，作武帝纪、三王世家、龟策、日者列传，言辞鄙陋，非迁本意也。可见司马迁编写史记，只能说是基本上完成，其中有若干篇，或者没有写定，或者已经定稿而后来散失了。
+          li
+            h4 目录
+            p
+              | 史记卷一 五帝本纪第一
+              br
+              |                         史记卷二 夏本纪第二
+              br
+              |                         史记卷三 殷本纪第三
+              br
+              |                         史记卷四 周本纪第四
+              br
+              |                         史记卷五 秦本纪第五
+              br
+              |                         史记卷六 秦始皇本纪第六
+              br
+              |                         史记卷七 项羽本纪第七
+              br
+              |                         史记卷八 高祖本纪第八
+              br
+              |                         史记卷九 吕太后本纪第九
+              br
+              |                         史记卷十 孝文本纪第十
+              br
+              |                         史记卷十一 孝景本纪第十一
+              br
+              |                         史记卷十二 孝武本纪第十二
+              br
+              |                         ------------
+      footer.footer
+        .link
+          li
+            a(href='#') 关于我们
+          li
+            a(href='#') 联系客服
+          li
+            a(href='#') 版权声明
+          li
+            a(href='#') CopyRight©书阁
