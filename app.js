@@ -66,6 +66,8 @@ app.use(function(err, req, res, next) {
 });
 
 // 监听3000端口
-server.listen('3000');
+server.listen('3000',function(){
+	console.log('localhost:3000 is listening.......');
+	});
 
 module.exports = app;
