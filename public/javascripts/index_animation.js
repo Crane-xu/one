@@ -50,7 +50,7 @@ function onesentence(){
     xhr.onreadystatechange = function () {
         if (xhr.readyState === XMLHttpRequest.DONE) {
             if (xhr.status < 200 || xhr.status >= 300 && xhr.status !== 304) {
-                alert(xhr.status);
+                //alert(xhr.status);
                 console.log('服务器异常');
                 return;
             } else {
